@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing:border-box;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.parallax {
+    overflow: hidden;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}  
+
+.parallax_1 {
+    height: 100vh;
+    background-image: url(images/image1.png);
+}
+
+.parallax h1 {
+    background-color: #313534;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.parallax_2 {
+    height: 50vh;
+    background-image: url(images/image2.png);
+}
+
+.parallax_3 {
+    height: 50vh;
+    background-image: url(images/image3.png);
+}
+
+.module {
+    height: 50vh;
+    padding: 0 40px;
+    background-color: #282E34;
+    color: #DDDDDD;
+}
+
+.sec1 {
+    background-color: #F4F4F4;
+    color: #666666;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 

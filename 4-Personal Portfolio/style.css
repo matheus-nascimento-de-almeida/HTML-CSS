@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: #BE3144;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav  a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 20px;
+    color: white;
+}
+
+nav a:hover{
+    background-color:#45567D;
+}
+
+header{
+    background-color: #2E3032;
+    height: 90vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header p{
+    color: #BE3144;
+}
+
+main{
+    background-color: #45567D;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    width: 80%;
+    padding: 50px;
+    
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.projects img{
+    width: 400px;
+    height: 400px;
+}
+
+.projects div{
+    height:4rem;
+    background-color: #303841;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button{
+    background-color: #303841;
+    font-size: 1.5rem;
+    padding:10px 30px;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+button:hover{
+    background-color: #BE3144;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #303841;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section h1{
+    font-size: 3rem;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+.social-media{
+    display: flex;
+    font-size: 30px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.social-media img{
+    height: 25px;
+    width: 25px;
+}
+
+.child{
+    margin: 10px;
+}
+.footer-line{
+    height: 3px;
+    width: 100%;
+    background-color: #BE3144;
+}
+
+footer{
+    background-color: #303841;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+}

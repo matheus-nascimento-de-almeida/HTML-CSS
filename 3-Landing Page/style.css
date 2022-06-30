@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EEEEEE;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+#header-logo{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+
+#img-logo{
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size:20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: cadetblue;
+}
+
+#section-form > * {
+    margin-top: 20px;
+}
+
+#section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-form > input{
+    width: 200px;
+    padding: 10px;
+    
+}
+
+#section-form > button{
+    padding: 10px 20px;
+    background-color:#F1C40F;
+    font-weight:900;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container-main{
+    display: flex;
+    max-width: 800px;
+    margin-bottom: 50px;
+
+}
+
+.container-main > img {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.container-prices{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.prices > div {
+    border: 1px solid black;
+    margin-right: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px 80px;
+    
+}
+
+.prices > div > * {
+    margin-top:10px;
+}
+
+.prices > div > button{
+    padding: 10px 30px;
+    background-color: #F1C40F;
+    text-transform: uppercase;
+    font-weight: 750;
+    margin-top: 30px;
+}
+
+footer{
+    width:70%;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: gray;
+}
