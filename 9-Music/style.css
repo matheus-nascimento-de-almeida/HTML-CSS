@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 1.4;
+}
+header {
+    background-color:var(--purple300);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex_align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav {
+    padding: 20px 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color:var(--purple300);
+}
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+.hero_container {
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    background-image: url(images/hero_image.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.hero_container h1 {
+    font-size: 92px;
+}
+.hero_container h2 {
+    font-size: 32px;
+}
+.music {
+    background-color:var(--purple500);
+    padding-top: 50px;
+}   
+.ipad-iphone-img {
+    position: relative;
+    margin-top: -400px;
+    top: 400px;
+}
+button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.2s ease-in-out;
+}
+.start_btn {
+    background-color: #dc0000;
+}
+.about {
+    margin-top: 400px;
+    margin-bottom: 100px;
+    color: black;
+    
+}
+.about .container {
+    gap: 40px;
+}
+.about_btn {
+    background-color: #270082;
+}
+.info{
+    background-image:url(images/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 75vh;
+    padding-top: 400px;
+}
+.gift_card {
+    color: black;
+    height: 50vh;
+    padding-top: 100px;
+
+}
+.gift_card .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gift_card .container button {
+    background-color: #270082;
+}
+.content > *{
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #270082;
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
