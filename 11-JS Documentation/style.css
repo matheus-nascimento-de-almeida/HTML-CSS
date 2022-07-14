@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  background-color: bisque;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+aside {
+    border: 1px solid #ccc;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    min-width: 180px;
+}
+
+.menu {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.menu h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+} 
+
+.menu:hover {
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+.main-container {
+    padding: 50px;
+}
+
+.section {
+    margin-bottom: 50px;
+    scroll-margin: 50px;
+}
+
+.title {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content {
+    max-width: 1200px;
+    font-size: 14px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content ul {
+    margin-left: 20px;
+}
+
+.content  ul li {
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 1.6;
+}
