@@ -11,7 +11,6 @@ body {
   font-weight: 300;
   line-height: 1.4;
   scroll-behavior: smooth;
-  background-color: bisque;
 }
 
 .container {
@@ -23,7 +22,7 @@ aside {
     height: 100vh;
     position: sticky;
     top: 0;
-    min-width: 180px;
+    min-width: 200px;
 }
 
 .menu {
@@ -77,3 +76,15 @@ aside {
     font-size: 14px;
     line-height: 1.6;
 }
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
