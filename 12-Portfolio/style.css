@@ -65,30 +65,31 @@ a {
 hr {
     border-bottom: 4px solid var(--lighting-color);
 }
-main {
-    
-}
 .logo {
     font-size: 2rem;
 }
-.hero {
+#hero {
     background-color: var(--dark-color);
     padding: 4rem 0;
     border-bottom: 4px solid var(--lighting-color);
     max-height: 100vh;
 }
-.hero .container {
+#hero .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
 }
-.hero h1 {
+.hero-img img {
+  margin: 0 auto;
+}
+#hero h1 {
     font-size: 3rem;
     font-weight: bold;
 }
 
-.hero h2 {
+#hero h2 {
     font-size: 4rem;
     font-weight: bold;
 }
@@ -100,11 +101,11 @@ main {
 .hero-name {
     font-size: 5rem;
 }
-.projects {
+#projects {
     background-color:var(--darker-color);
     text-align: center;
 }
-.projects h1 {
+#projects h1 {
     font-size: 6rem;
     padding: 2rem 0;
 }
@@ -141,3 +142,74 @@ main {
     transition: 0.5s ease-in-out;
     transform: translateY(100px);
   }
+
+#contact {
+  background-color:var(--dark-color) ;
+}
+
+#contact .container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+}
+.contact_content h1 {
+  font-size: 6rem;
+}
+
+.socials {
+  display:  flex;
+  gap: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.social {
+  display: flex;
+  gap: 5px;
+  line-height: 1;
+}
+
+footer {
+  background-color: var(--darker-color);
+}
+
+footer .container {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 786px) {
+  html {
+    font-size: 40%;
+  }
+  nav li {
+    font-size: 2.4rem;
+  }
+  .hero-img img {
+    width: 80%;
+  }
+  .project_container {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 32%;
+  }
+  .hero-img img {
+    width: 70%;
+    margin-left: 50px;
+  }
+  .project_container {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
